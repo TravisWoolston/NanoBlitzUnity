@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &961482913921008196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2901905241140804648, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_Name
+      value: Sparks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893669591196112458, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.525213
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.883577
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 370.40036
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814569827937774771, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: TrailModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.m_Texture
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.alignToDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.m_TextureClipChannel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.randomPositionAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.randomDirectionAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.m_TextureClipThreshold
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.sphericalDirectionAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028797454697373318, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
+      propertyPath: ShapeModule.m_TextureColorAffectsParticles
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c469ab0074caf834bb9ac5b7d1da85b9, type: 3}
