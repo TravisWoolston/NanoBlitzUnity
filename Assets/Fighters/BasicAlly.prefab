@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1319748457834176593
 Transform:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -276,6 +276,7 @@ MonoBehaviour:
   Dissolve: {fileID: 4912982503476496429}
   VGShield: {fileID: 2751699026954332208, guid: 7558295ff18f91a4db346259f6bb54b5, type: 3}
   prefab: {fileID: 1319748457834176603}
+  firePoint: {fileID: 2537043752026185708}
 --- !u!58 &802491073977286441
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -455,9 +456,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SyncPositionX: 1
   SyncPositionY: 1
-  SyncPositionZ: 1
-  SyncRotAngleX: 1
-  SyncRotAngleY: 1
+  SyncPositionZ: 0
+  SyncRotAngleX: 0
+  SyncRotAngleY: 0
   SyncRotAngleZ: 1
   SyncScaleX: 1
   SyncScaleY: 1
@@ -519,7 +520,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6445948586998205433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.663, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0.84, z: 0}
   m_LocalScale: {x: 0.19999999, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

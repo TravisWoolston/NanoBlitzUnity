@@ -17,6 +17,7 @@ TagManager:
   - Missile
   - NMUI
   - ServerRelay
+  - RenderCam
   layers:
   - Default
   - TransparentFX

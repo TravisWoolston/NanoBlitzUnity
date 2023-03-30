@@ -137,6 +137,7 @@ MonoBehaviour:
   accTimer: 0
   rb: {fileID: 1185284665344444248}
   target: {x: 0, y: 0}
+  fireTarget: {x: 0, y: 0}
   timer: 0
   hp: 0
   playerAllies: []
@@ -158,6 +159,7 @@ MonoBehaviour:
   Dissolve: {fileID: -3022477613004475810}
   rallyCpt: {fileID: 0}
   prefab: {fileID: 1185284665344444250}
+  firePoint: {fileID: 292513776996093770}
 --- !u!58 &8848389602474566412
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -523,7 +525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114288186147782332, guid: c1e88c5808c41ea4e95200206e8b8f48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5114288186147782332, guid: c1e88c5808c41ea4e95200206e8b8f48, type: 3}
       propertyPath: m_LocalPosition.y

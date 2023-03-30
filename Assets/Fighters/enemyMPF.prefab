@@ -66,7 +66,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e586a50f5439b484686530602a920c8f, type: 3}
   - {fileID: 8300000, guid: 5047c38b603c5dc40aa46c4a0e48fad0, type: 3}
   - {fileID: 8300000, guid: 9c9bb5f9144bf594d84a57fae113f2f3, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 2754586164373695930}
 --- !u!50 &9123165040780082421
 Rigidbody2D:
   serializedVersion: 4
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SyncPositionX: 1
   SyncPositionY: 1
-  SyncPositionZ: 0
+  SyncPositionZ: 1
   SyncRotAngleX: 0
   SyncRotAngleY: 0
   SyncRotAngleZ: 1

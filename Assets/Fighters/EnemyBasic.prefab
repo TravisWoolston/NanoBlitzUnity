@@ -69,7 +69,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185284665344444250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -173,6 +173,7 @@ MonoBehaviour:
   accTimer: 0
   rb: {fileID: 1185284665344444248}
   target: {x: 0, y: 0}
+  fireTarget: {x: 0, y: 0}
   timer: 0
   hp: 0
   playerAllies: []
@@ -198,6 +199,7 @@ MonoBehaviour:
   Dissolve: {fileID: 6444810082454763061}
   rallyCpt: {fileID: 0}
   prefab: {fileID: 1185284665344444250}
+  firePoint: {fileID: 2654481536697569689}
 --- !u!58 &4206669228614673469
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -730,7 +732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114288186147782332, guid: c1e88c5808c41ea4e95200206e8b8f48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5114288186147782332, guid: c1e88c5808c41ea4e95200206e8b8f48, type: 3}
       propertyPath: m_LocalRotation.w

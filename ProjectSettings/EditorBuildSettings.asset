@@ -7,11 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Overworld.unity
     guid: 9111d60d0302cad41a16a2924d2dac96
-  - enabled: 1
+  - enabled: 0
     path: Assets/broken project.unity
     guid: df12002daff8ffd468ffc61a36ee9100
   - enabled: 1

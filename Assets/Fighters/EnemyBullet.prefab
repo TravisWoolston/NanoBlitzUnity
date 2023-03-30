@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3042073354108637777}
   - component: {fileID: 17835584313434147}
   - component: {fileID: -8904150201516637101}
-  - component: {fileID: 373880329095063283}
   - component: {fileID: -2584172042018011421}
   - component: {fileID: -1120354023179450181}
   - component: {fileID: 4888984453147034835}
@@ -60,7 +59,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 2201a46990368624db57f9b3d9568de8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,11 +104,11 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.25
+  m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 2
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -125,6 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbda7ee2f87ccfc448c439219179e630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 2169493961334403827}
+  rb: {fileID: 3042073354108637777}
 --- !u!58 &-8904150201516637101
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -141,18 +142,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &373880329095063283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2169493961334403827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbda7ee2f87ccfc448c439219179e630, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-2584172042018011421
 MonoBehaviour:
   m_ObjectHideFlags: 0
