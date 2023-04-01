@@ -101,7 +101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5362070943943523358
 Transform:
   m_ObjectHideFlags: 0
@@ -187,6 +187,8 @@ MonoBehaviour:
   firePoint: {fileID: 5362070944303565600}
   fireForce: 80
   parent: {fileID: 0}
+  fireTarget: {fileID: 0}
+  hasMissiles: 1
   spawnedMissiles: []
 --- !u!1001 &905361099111069084
 PrefabInstance:
