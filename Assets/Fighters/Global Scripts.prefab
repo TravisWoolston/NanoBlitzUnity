@@ -79,19 +79,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PooledPrefabsList:
   - Prefab: {fileID: 2169493961334403827, guid: 7b0727b0c99073d42a3fdd47ae09cf02, type: 3}
-    PrewarmCount: 1000
+    PrewarmCount: 10000
   - Prefab: {fileID: 2169493961334403827, guid: ad0c8e55cef9f234c853ebb26e576dc4, type: 3}
-    PrewarmCount: 1000
+    PrewarmCount: 10000
   - Prefab: {fileID: 1185284665344444250, guid: 24ae5ce70da00434cb5e358b08a6bcd4, type: 3}
     PrewarmCount: 800
   - Prefab: {fileID: 1185284665344444250, guid: 54d29fa1920ca7946a9250066c87bf72, type: 3}
-    PrewarmCount: 200
+    PrewarmCount: 100
   - Prefab: {fileID: 1319748457834176603, guid: 60e2e64fa04a91d44a234ab34887b294, type: 3}
-    PrewarmCount: 800
+    PrewarmCount: 1000
   - Prefab: {fileID: 2754586164373695930, guid: 3f64f9af405ff4b41895328109e20fd1, type: 3}
-    PrewarmCount: 200
+    PrewarmCount: 2000
   - Prefab: {fileID: 2754586164373695930, guid: 051ba1ad9519c5a4586d821af4807a4c, type: 3}
     PrewarmCount: 200
+  - Prefab: {fileID: 2588693055658583888, guid: 80574f3ee581d30478889742191f15f1, type: 3}
+    PrewarmCount: 100
 --- !u!114 &7315544858929631677
 MonoBehaviour:
   m_ObjectHideFlags: 0

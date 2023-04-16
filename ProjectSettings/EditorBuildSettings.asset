@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/broken project.unity
     guid: df12002daff8ffd468ffc61a36ee9100
   - enabled: 1
+    path: Assets/Main Menu.unity
+    guid: 15f196b1b8a561e41a9a62505ae541e0
+  - enabled: 1
     path: Assets/NB multiplayer.unity
     guid: 2c81314d2f5ca694abbc0a9d612743ec
   m_configObjects: {}

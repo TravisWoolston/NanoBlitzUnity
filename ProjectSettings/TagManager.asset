@@ -18,6 +18,10 @@ TagManager:
   - NMUI
   - ServerRelay
   - RenderCam
+  - HammerHead
+  - EnemyHHSpawn
+  - Explosion
+  - Spark
   layers:
   - Default
   - TransparentFX
