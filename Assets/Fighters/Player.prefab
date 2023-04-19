@@ -308,7 +308,6 @@ MonoBehaviour:
   hpDrain: {fileID: 6592322490349288150}
   velocity: {x: 0, y: 0, z: 0}
   distanceThreshold: 0
-  initialScale: {x: 0, y: 0, z: 0}
   playerCam: {fileID: 0}
   playerMM: {fileID: 0}
   playerMMC: {fileID: 0}
@@ -800,6 +799,8 @@ MonoBehaviour:
   isDissolving: 0
   fade: 1
   dissolveDone: 0
+  colorIntensity: 0.5
+  charging: 0
 --- !u!114 &1025831727607968526
 MonoBehaviour:
   m_ObjectHideFlags: 0

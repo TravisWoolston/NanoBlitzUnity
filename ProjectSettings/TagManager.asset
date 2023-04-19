@@ -22,6 +22,7 @@ TagManager:
   - EnemyHHSpawn
   - Explosion
   - Spark
+  - Alpha
   layers:
   - Default
   - TransparentFX

@@ -20,4 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NB multiplayer.unity
     guid: 2c81314d2f5ca694abbc0a9d612743ec
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a2daf482e23059b489d19c43dd33c7f9, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 7320aaeedb32d6b41b311a83886ac5b2, type: 2}

@@ -124,7 +124,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.47, y: 1.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -181,7 +181,6 @@ MonoBehaviour:
   sparks: {fileID: 7468202754176446773, guid: 031665524616e8848a51fef0f1ea50b4, type: 3}
   closestPlayerObject: {fileID: 0}
   closestCaptain: {fileID: 0}
-  weapon: {fileID: 7775704862121993765}
   nextWaypointDistance: 8
   goTo: {x: 0, y: 0}
   engineParticles: {fileID: 2901905241140804648, guid: e4164d6b589a66d4fa36fb934bd6b38b, type: 3}
@@ -201,6 +200,7 @@ MonoBehaviour:
   firePoint: {fileID: 2654481536697569689}
   enemyID: 0
   hpDrain: {fileID: 1858576313234911737}
+  absorbed: 0
 --- !u!120 &1858576313234911737
 LineRenderer:
   m_ObjectHideFlags: 0
